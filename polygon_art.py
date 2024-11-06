@@ -111,7 +111,7 @@ class Run:
     
     def run(self):
 
-        num_polygons = random.randint(1,50)
+        num_polygons = random.randint(20,30)
         if self.choice in ['1', '5']:
             """Draw Triangle"""
             num_sides = 3
